@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <table>
+            <tr>
+                <td>Name:</td>
+                <td><input required maxlength="5" type="text" placeholder="Name"></td>
+            </tr>
+            <tr>
+                <td>Fav number:</td>
+                <td><input required placeholder="Fav number(7-29)" type="number" min="7" max="29"></td>
+            </tr>
+            <tr>
+                <td>Email:</td>
+                <td><input required type="email" placeholder="Email"></td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <td><input required type="password" placeholder="Password"></td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td><input type="radio" name="gendertype" checked>Female
+                    <input type="radio" name="gendertype">Male
+                </td>
+            </tr>
+            <tr>
+                <td>Country:</td>
+                <td><label for="country"></label>
+                    <select id="country" required>
+                        <option>USA</option>
+                        <option>UK</option>
+                        <option>Germany</option>
+                        <option>France</option>
+                        <option>Turkey</option>
+                        <option>Azerbaijan</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Message:</td>
+            </tr>
+            <tr>
+                <td colspan="2"><textarea required placeholder="Your message" cols="60" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td>Subscribe to newsletter:</td>
+                <td><input required type="checkbox"></td>
+            </tr>
+            <tr>
+                <td>Upload file:</td>
+                <td><input required type="file" multiple></td>
+            </tr>
+            <tr>
+                <td>Birthday:</td>
+                <td><input required type="date"></td>
+            </tr>
+            <tr>
+                <td>Favorite Color:</td>
+                <td><input required type="color"></td>
+            </tr>
+            <tr>
+                <td>Personal Website:</td>
+                <td><input required type="url" placeholder="Your website"></td>
+            </tr>
+            <tr>
+                <td><input type="submit"></td>
+                <td><input type="reset"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
